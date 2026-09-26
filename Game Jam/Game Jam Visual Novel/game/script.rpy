@@ -34,12 +34,43 @@ menu:
         jump Inside_Elevators
     
     "No, I want to explore first.":
-        jump Hallway
+        jump Hallway # Work on this after finishing the Main Story.
 
 label Inside_Elevators:
     mc "What am I thinking? I need to get this over with as fast as possible so I can get back to bed!"
 
     "I confidently pump my fist against my chest, in an attempt to summon the motivation to continue onwards to the tunnels."
+
+    mc "Oh, right. I need to press the button to go down. I'm so dumb..."
+
+    "I walk up to the elevator's buttons."
+
+    "*CLICK*"
+
+    "After a bit of waiting, an elevator comes down, announcing its arrival with a small chime."
+
+    mc "Wow, I forget how fast these elevators come down on weekends. Then again, who's going to be using the elevators this early? Especially on a weekend."
+
+    "I make my way into the elevator."
+
+    "It was a pretty smooth ride down, didn't have much going on...since it's an elevator."
+
+    "*DING*"
+
+    "I arrived at the A level, where the tunnels are. I stepped off the elevator, taking in the scenery of the same 7 vending machines always seen on the Ellingson side of the tunnels."
+
+    mc "Wow... no matter how many times I come down here, I'm still mesmerized by the vending machines down here."
+
+    mc "Actually...I could just get some food from one of the vending machines down here!"
+
+    "Do I get food from the vending machines?"
+
+menu:
+    "Yes! I don't need to walk to the corner store if I do!":
+        jump Ending_Sequence
+    
+    "No, the food probably sucks anyways.":
+        jump Tunnel_Hallways
 
 label Hallway:
     mc "Mmm..."
