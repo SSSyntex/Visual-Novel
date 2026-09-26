@@ -93,7 +93,17 @@ label Tunnel_Hallways:
 
     "I strode past the vending machines, my mind dead set on making it to the corner store...for now."
 
-    "It was going to be quite a walk, due to me venturing to the corner store from the Ellingson side of the tunnels."
+    "It was going to be quite the walk, due to me venturing to the corner store from the Ellingson side of the tunnels."
+
+    # Scene for hallway
+
+    "I came face to face with the doorway leading to the Gibson tunnels."
+
+    "There, I saw..."
+
+    "Nothing out of the ordinary. I continued onward."
+
+    
 
 label Hallway:
     mc "Mmm..."
